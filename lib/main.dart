@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_game/stage.dart';
 
 void main() => runApp(MaterialApp(
       home: MyApp(),
@@ -13,14 +14,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        padding: EdgeInsets.all(32.0),
-        child: Center(
-          child: Column(
-            children: <Widget>[],
-          ),
-        ),
-      ),
+      body: Stage(),
     );
   }
 }
